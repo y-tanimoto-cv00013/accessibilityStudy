@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS読み込み -->
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+
+<body>
+  <nav>     
+    <ul>  
+      <li>
+        <img class="logo" src="pastrylogo.png" alt="お菓子屋さんのロゴ" />
+      </li>
+      <li>ホーム</li>
+      <li>店舗情報</li>
+      <li>メニュー</li>
+      <li>お問い合わせ</li>
+    </ul>
+  </nav>
+    <h1 class="title">アクセシビリティサンプル</h1>
+   
+<div class="wrapper">
+  <div class="divButtonWrapper">
+    <!-- <p>divで作ったボタン</p> -->
+    <div class="divButton">申し込む</div>
+  </div>
+  <div class="buttonWrapper">
+    <!-- <p>buttonタグで作ったボタン</p> -->
+    <button class="button">申し込む</button>
+  </div>
+  <div class="alialabelButtonWrapper">
+    <!-- <p>buttonタグとaria-labelを追加して作ったボタン</p> -->
+    <button aria-label="サブスクの契約を申し込むボタン" class="button">申し込む</button>
+  </div>
+  </div>
+  <div class="inputWrapper">
+    <div>
+      <!-- <p>何もないinput</p> -->
+      <label>名前</label>
+      <input type="text" class="input"/>
+    </div>
+    <div>
+      <!-- <p>labelつけたinput</p> -->
+      <label for="name">名前</label>
+      <input type="text" name="name" id="name" class="input"/>
+    </div>
+  </div>
+  <div class="imgWrapper">
+    <!-- <p>何もない画像</p> -->
+    <img src="16476_color.svg" />
+    <!-- <p>画像にalt属性をつけたもの</p> -->
+    <img src="16476_color.svg" alt="ペンギンの画像" />  
+  </div>
+</body>
+</html>
